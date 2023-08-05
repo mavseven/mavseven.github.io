@@ -35,7 +35,7 @@
  *
 */
 
-// t: current time, b: begInnIng value, c: change In value, d: duration
+// t: waktu sekarang, b: nilai awal, c: nilai perubahan, d: durasi
 jQuery.easing['jswing'] = jQuery.easing['swing'];
 
 jQuery.extend( jQuery.easing,
