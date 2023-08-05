@@ -2,10 +2,10 @@
 // Typography
 // ==================================
 //
-// Font, line-height, and color for body text, headings, and more.
+// Font, tinggi baris, dan warna untuk teks isi, judul, dan lainnya.
 
-$font-family-base:                                              			Hind, sans-serif !default; // Hind font family
-$font-family-sl-icons:                                              	Simple-Line-Icons !default; // Simple Line Icons third-party icons plugin
+$font-family-base:                                              			Hind, sans-serif !default; // Keluarga font Hind
+$font-family-sl-icons:                                              	Simple-Line-Icons !default; // Plugin ikon pihak ketiga Simple Line Icons
 
 // Colors
 $color-base:                                                            #17bed2 !default;
@@ -21,27 +21,27 @@ $ver-center-block-height:														400px !default;
 
 
 // ==================================
-// Media queries breakpoints
+// Titik henti kueri media
 // ==================================
 //
-//Define the breakpoints at which your layout will change, adapting to different screen sizes.
+//Tentukan breakpoint di mana tata letak nya akan berubah, beradaptasi dengan ukuran layar yang berbeda.
 
-// Extra small screen / phone
+// Layar / ponsel ekstra kecil
 $screen-xs-min:                											480px !default;
 
-// Small screen / tablet
+// Layar / tablet kecil
 $screen-sm-min:                											768px !default;
 
-// Medium screen / desktop
+// Layar sedang / desktop
 $screen-md-min:                											992px !default;
 
-// Large screen / wide desktop
+// Layar besar / desktop lebar
 $screen-lg-min:                											1200px !default;
 
-// Large scree / wider desktop
+// Layar besar / desktop lebih lebar
 $screen-lg-med:                     								1260px !default;
 
-// So media queries don't overlap when required, provide a maximum
+//Agar kueri media tidak tumpang tindih saat dibutuhkan, berikan yang maksimal
 $screen-xs-max:             												($screen-sm-min - 1) !default;
 $screen-sm-max:                											($screen-md-min - 1) !default;
 $screen-md-max:                											($screen-lg-min - 1) !default;
