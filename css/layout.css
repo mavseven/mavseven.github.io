@@ -850,7 +850,7 @@ fieldset[disabled] .btn-theme {
 /*----------------------------------
   Custome Style of Info Window
 ------------------------------------*/
-/* White background and box outline */
+/* Latar belakang putih dan garis luar kotak */
 .gm-style > div:first-child > div + div > div:last-child > div > div:first-child > div {
   background-color: #fff !important;
   box-shadow: none !important;
@@ -866,7 +866,7 @@ fieldset[disabled] .btn-theme {
   display: none;
 }
 
-/* Let's remove image icon inside close button */
+/* Mari kita hapus ikon gambar di dalam tombol tutup */
 .gm-style > div:first-child > div + div > div:last-child > div > div:last-child > img {
   display: none;
 }
@@ -886,7 +886,7 @@ fieldset[disabled] .btn-theme {
   content: "\e082";
 }
 
-/* Positioning of infowindow */
+/* Posisi jendela info */
 .gm-style-iw {
   top: 22px !important;
   left: 22px !important;
