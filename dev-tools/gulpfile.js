@@ -1,1 +1,4 @@
-proses update web developer 
+html
+css
+javascript
+framework jQuery 
